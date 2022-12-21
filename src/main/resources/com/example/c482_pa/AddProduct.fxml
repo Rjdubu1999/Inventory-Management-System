@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.c482_pa.AddProduct">
+    <Label layoutX="25.0" layoutY="25.0" text="Add Product">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="35.0" layoutY="75.0" text="ID" />
+    <Label layoutX="35.0" layoutY="110.0" text="Name" />
+    <Label layoutX="35.0" layoutY="145.0" text="Inv" />
+    <Label layoutX="35.0" layoutY="180.0" text="Price / Cost" />
+    <Label layoutX="35.0" layoutY="215.0" text="Max" />
+    <Label layoutX="240.0" layoutY="215.0" text="Min" />
+    <Label layoutX="35.0" layoutY="245.0" text="Machine ID" />
+    <TextField layoutX="125.0" layoutY="70.0" prefWidth="100.0" />
+    <TextField layoutX="125.0" layoutY="105.0" prefWidth="100.0" />
+    <TextField layoutX="125.0" layoutY="140.0" prefWidth="100.0" />
+    <TextField layoutX="125.0" layoutY="175.0" prefWidth="100.0" />
+    <TextField layoutX="125.0" layoutY="210.0" prefWidth="100.0" />
+    <TextField layoutX="270.0" layoutY="210.0" prefWidth="85.0" />
+    <TextField layoutX="125.0" layoutY="245.0" prefWidth="100.0" />
+    <Button layoutX="600.0" layoutY="450.0" mnemonicParsing="false" text="Save" />
+   <Button layoutX="600.0" layoutY="410.0" mnemonicParsing="false" text="Remove Associated Part" />
+    <Button layoutX="690.0" layoutY="450.0" mnemonicParsing="false" text="Cancel" />
+   <TableView layoutX="450.0" layoutY="50.0" prefHeight="150.0" prefWidth="350.0">
+     <columns>
+         <TableColumn prefWidth="49.0" text="ID" />
+       <TableColumn prefWidth="81.0" text="Part Name" />
+       <TableColumn prefWidth="100.0" text="Inventory Level" />
+         <TableColumn prefWidth="119.0" text="Price / Cost Per Unit" />
+     </columns>
+   </TableView>
+    <TableView layoutX="450.0" layoutY="245.0" prefHeight="150.0" prefWidth="350.0">
+     <columns>
+         <TableColumn prefWidth="49.0" text="ID" />
+       <TableColumn prefWidth="81.0" text="Part Name" />
+       <TableColumn prefWidth="100.0" text="Inventory Level" />
+         <TableColumn prefWidth="119.0" text="Price / Cost Per Unit" />
+     </columns>
+   </TableView>
+   <Button layoutX="715.0" layoutY="210.0" mnemonicParsing="false" text="Add" />
+</AnchorPane>
